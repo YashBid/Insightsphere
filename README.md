@@ -26,7 +26,6 @@ InsightSphere lets you paste up to 3 financial news article URLs, processes them
 | 🤖 **AI Summarization** | Extracts key financial data — figures, forecasts, and events — from articles instantly |
 | 🔍 **Semantic Search** | FAISS vector store + HuggingFace embeddings for context-aware Q&A |
 | 💬 **RAG Q&A** | Ask natural language questions — get precise, source-grounded answers |
-| 🎨 **Modern UI** | Dark glassmorphism interface with animated Siri-style orb, micro-animations, and smooth transitions |
 
 ---
 
