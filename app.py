@@ -29,7 +29,7 @@ import requests
 import streamlit as st
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-from langchain.docstore.document import Document
+from langchain_core.documents import Document
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
@@ -55,7 +55,7 @@ if not groq_api_key:
 
 # ─── Constants ────────────────────────────────────────────────────────────────
 
-DB_PATH = "insightsphere.db"
+DB_PATH = "/tmp/insightsphere.db" if os.path.exists("/tmp") else "insightsphere.db"
 VECTOR_STORE_PATH = "faiss_store_groq.pkl"
 LLM_MODEL = "llama-3.3-70b-versatile"  # Groq — active production model
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
