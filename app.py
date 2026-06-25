@@ -31,7 +31,7 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from langchain_core.documents import Document
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from readability import Document as ReadabilityDocument
 

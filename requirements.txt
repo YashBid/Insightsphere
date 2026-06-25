@@ -5,6 +5,8 @@ streamlit>=1.35.0
 # Groq API is called via requests (OpenAI-compatible endpoint)
 langchain>=0.1.0
 langchain-community>=0.0.20
+langchain-core>=0.2.0
+langchain-text-splitters>=0.2.0
 faiss-cpu>=1.7.4
 sentence-transformers>=2.2.2
 
