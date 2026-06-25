@@ -1,0 +1,22 @@
+# ─── Web App Framework ────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ─── LLM / RAG Stack ─────────────────────────────────────────────────────────
+# Groq API is called via requests (OpenAI-compatible endpoint)
+langchain>=0.1.0
+langchain-community>=0.0.20
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# ─── Web Scraping & HTML Parsing ─────────────────────────────────────────────
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+readability-lxml>=0.8.1
+html2text>=2020.1.16
+lxml>=4.9.0
+
+# ─── Authentication ───────────────────────────────────────────────────────────
+bcrypt>=4.0.1
+
+# ─── Environment Management ───────────────────────────────────────────────────
+python-dotenv>=1.0.0
